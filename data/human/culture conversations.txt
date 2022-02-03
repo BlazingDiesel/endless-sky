@@ -172,3 +172,105 @@ mission "Tarazed Ship Christening"
 			`	"Before you go," the man says, "we weren't very sure about this whole 'pilot' thing at first, but it's good to hear that my little girl has made the right decision. Thank you for that."`
 			`	"It's the least I could do," you say before walking away.`
 				decline
+
+
+
+mission "Influencer Encounter"
+	minor
+	source
+		government "Republic"
+		attributes "paradise" "wealthy"
+		not attributes "station"
+	to offer
+		random < 1
+		"net worth" >= 7500000
+	on offer
+		conversation
+			`After taking care of all of your necessary duties at the spaceport, you meander your way back towards your ship. As you're approaching, though, you spot a peculiar group of people standing next, walking around, and leaning on it. They don't appear to be in any uniforms, organized in any particular way, or acting aggressively, but instinctually you hesitate to come any closer.`
+			`	Positioning yourself to get a better look at them without being seen, you notice one individual holding a video recording device of some kind, with the others seemingly flaunting around in front of it. It doesn't take long for you to come to realize that these fairly young-looking people are in the process of recording some video for social media, and are utilizing your ship as bragging material.`
+			choice
+				`	(Approach them.)`
+					goto approach
+				`	(Just wait for them to leave.)`
+					goto wait
+				`	(Get on your ship and leave without speaking.)`
+			`	You lower the ramp to your ship, startling the group briefly. Silently, you walk past them and enter, receiving confused looks on the way. Before any of them have time to say something, the ship's hatch closes.`
+				decline
+			label wait
+			`	Waiting for a few minutes, you watch as the group continues walking, posing, and occasionally briefly dancing around your ship. Periodically they break into conversations that are either too faint to hear or end in a noticeably annoyed tone directed to the individual holding the recording device. It's almost comedic watching them and knowing the full context about the scene.`
+			`	At present moment though, they show no signs of wrapping up what they're doing.`
+			choice
+				`	(Now approach them.)`
+					goto approach
+				`	(Keep waiting for them to leave.)`
+			`	After what feels like countless seconds of your short mortal life withered away into nothingness but what was probably closer to just 10 minutes, the group apparently collectively decides they are done using your ship as a prop. Relieved, you return to it and try not to focus too hard on the fingerprints they left on the hull.`
+				decline
+			label approach
+			`	You walk up to the group though none of them seem to notice you approaching. When you get to them, however, one man either in his late teens or early twenties makes eye contact, stands up a bit straighter, and let's out a slightly awkward "Uhh..." The rest of the group now start to turn to look at you.`
+			choice
+				`	"Do you all plan on paying for the scratches you're making?"`
+					goto scratches
+				`	"Whoah! Is this really your ship?"`
+					goto pretend
+				`	(Pretend to be spaceport security.)`
+					goto security
+				`	(Don't say anything and just stare.)`
+			`	You and the group stand in silence for a moment before one of them, a young woman, says "Is something happening?"`
+			choice
+				`	(Say literally anything.)`
+					goto babbling
+				`	(Just stay quiet and keep staring.)`
+			`	At this point, the one who was holding the recording device says "Listen, dude, we're doing something here..." gesturing with what he's holding.`
+			`	Not daring to pierce the now-deafening awkward silence you've chosen to create, you continue looking over the group. They keep making attempts to grab ahold of your attention, tell you to leave, and question who you are, but you didn't wake up today in the mood to be moving your vocal cords for any reason.`
+				goto giveup
+			label babbling
+			`	You go to speak something to these individuals, however given the silence that has built up, the awkward tension that has built in your brain snaps completely leading to you forming sounds that are so nonsensical they are probably only intelligible to the Quarg. In response, the people before you grow baffled facial expressions and just stand there hopelessly.`
+				goto giveup
+			label scratches
+			`	"Wuh, scratches?" says one young woman, who seems now more than eager to stop leaning against the ship.`
+			`	"Yes! The <ship> is a fine thing, don't you know? It cost me far too much just to have some random people dancing and bumping into it."`
+			`	"It's not like we were hurting it or nothing. We didn't scratch your precious hunk of metal."`
+			`	"Well I guess we'll have to see about that," you add. Looking over the hull where they were leaning and posing against it, you don't see any noticable scratches or dents. It would actually be surprising if you did, considering it goes through much rougher activity just flying it through space.`
+			`	"Oh trust me, we're not paying anything. My father- I mean, I have better lawyers than you ever will, and the ship is fine anyway!"`
+			`	"Whatever, just leave it alone, okay?"`
+			`	She sighs before replying "Fine, then. I guess we'll just record... somewhere else." They begin collecting their things to go.`
+				goto giveup
+			label pretend
+			`	"Yuh-huh," says one young woman, still holding some of her weight with here hand against the ship.`
+			`	"Incredible!" your reply, "You named it the <ship>, huh? What a silly name."`
+			`	"Who asked you? It's my ship, I'll name it the uhh, <ship> if I want to! Do you even know who I am."`
+			`	"No clue, I was just admiring the ship. Must have cost you quite a bit," you say, hopefully convincingly.`
+			`	"Yeah, it did. And if you know who I was, and who we are, you'd know that." She turns to another one in her group and says, "I swear old people will never get a good grasp of social media." The group giggles briefly.`
+			choice
+				`	"Would you mind giving me a tour of the inside of it?"`
+					goto tour
+				`	"Oh, well could I be in whatever you're recording?"`
+			`	The woman nearly laughs before saying "What? No! We're doing something important here."`
+			`	"Well I just thought," you add, "since you're using my ship as a prop that I had more of a say on the matter."`
+			`	"Your ship..." she replies, looking back and forth between you and it. It's not long before the group understands the situation wholly and drop their ruse to make you leave them alone. Awkwardly she says, "I guess we'll just record... somewhere else, then." They begin collecting their things to go.`
+				goto giveup
+			label tour
+			`	The woman nearly laughs before saying "A tour? No! We're doing something important here, I don't want you on my ship!"`
+			`	"No worries, I know it like the back of my hand anyway. Considering, of course, I pilot it."`
+			`	"You pilot it..." she replies, looking back and forth between you and it. It's not long before the group understands the situation wholly and drop their ruse to make you leave them alone. Awkwardly she says, "I guess we'll just record... somewhere else, then." They begin collecting their things to go.`
+				goto giveup
+			label security
+			`	"Does this ship belong to one of you?" you ask, sternly.`
+			`	One of them, a young woman, says "Uhh, yeah. It's my ship. We're, uh, in the middle of something right now though."`
+			`	"Is that so? Then you should have no problem showing me your Pilot's Liscense, and maybe something that proves you own this."`
+			`	The group stands around, flashing quick looks at each other, before the same woman replies "Yeah I could if I had it on me. But right now it's somewhere else, so is there something we're doing wrong here?"`
+			choice
+				`	"The Spaceport has been alerted that this particular ship has been reported stolen."`
+					goto stolen
+				`	"I'm sure the actual owner of this ship would think you're doing something wrong."`
+			`	They give you a blank look as the gears start turning in their heads. The one woman who has been answering you so far says "Well, I am the actual owner of the uhh, <ship>! I don't know who you are to say that I'm not! Come on guys, let's just shoot this somewhere else." The others in the group, still looking dumbfounded, murmur a collective 'okay' before collecting their things to go.`
+				goto giveup
+			label stolen
+			`	"Wuh, stolen?! You don't know who you're talking to, you don't know whose ship this is! Anyway, we should uhh, get going guys." The rest of them, looking a bit more weary about choosing this ship in particular to film in front of, quickly begin collecting their things.`
+				goto getout
+			label giveup
+			`	With enough time, the small body of people leave, muttering frustrated and almost certainly confused words to each other, allowing you to enter your ship in peace.`
+				decline
+			label getout
+			`	In a surprisingly short amount of time, the group rushes away from your ship. You can faintly hear them exchange disgruntled words about either you or each other. Satisfied, you enter your ship.`
+				decline
