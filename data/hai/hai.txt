@@ -593,6 +593,7 @@ phrase "hostile hai"
 	word
 		" came to "
 		" entered "
+		" were welcomed to "
 	word
 		" Hai "
 		" our "
@@ -602,6 +603,12 @@ phrase "hostile hai"
 		"worlds"
 	word
 		" with "
+		", only to reveal your "
+		" holding "
+	word
+		"" 2
+		"disgustingly "
+		"unfathomably "
 	word
 		"impure"
 		"unclean"
@@ -615,6 +622,11 @@ phrase "hostile hai"
 		"brutal"
 		"cruel"
 		"heartless"
+		"corrupted"
+		"villainous"
+		"hateful"
+		"criminal"
+		"atrocious"
 	word
 		" "
 	word
@@ -661,6 +673,11 @@ phrase "hostile disabled hai"
 		"brutal"
 		"cruel"
 		"heartless"
+		"corrupted"
+		"villainous"
+		"hateful"
+		"criminal"
+		"atrocious"
 	word
 		" "
 	word
@@ -668,14 +685,18 @@ phrase "hostile disabled hai"
 		"creature"
 		"thing"
 		"being"
+		"monster"
 	word
 		". "
 		"! "
 	word
-		" We provided you sanctuary and you betrayed us."
-		" We were nothing but peaceful to you but you did not reciprocate."
-		" We live only in peace yet you come bringing war."
-		" Have you no soul?"
+		"We provided you sanctuary and you betrayed us."
+		"We were nothing but peaceful to you but you did not reciprocate."
+		"We live only in peace yet you come bringing war."
+		"Have you no soul?"
+		"What have we done to drive you to this?"
+		"What of these peaceful worlds bring you to such evil?"
+		"We show you true friendship and you give us pure pain."
 		
 
 phrase "friendly unfettered"

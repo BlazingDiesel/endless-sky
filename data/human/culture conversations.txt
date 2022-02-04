@@ -115,7 +115,7 @@ mission "Paradise Cleaner Incident"
 		conversation
 			`Visiting the Paradise spaceports is always an interesting experience for someone from abroad. Nowhere else is class such an ingrained component of daily life. You find yourself noticing people who seem to be invisible to most of those going about their business, but they never catch your eye. They always appear to be doing their utmost to avoid notice.`
 			`	You haven't noticed children that look poor here in the past, but on this occasion you spot one as he knocks over a mop and bucket... right in front of a businessman and his family rolling their bags through the spaceport. You've never seen someone go so deathly pale as the cleaner, the boy's mother, who scurries to fix things before the man even draws a breath.`
-			`	A pair of security officers appear almost immediately, before you could intercede one way or the other, as the man and his family begin to complain. One officer provides assurances as the other supervises the cleaner, who quickly hurries her child out of harms way.`
+			`	A pair of security officers appear almost immediately, before you could intercede one way or the other, as the man and his family begin to complain. One officer provides assurances as the other supervises the cleaner, who quickly hurries her child out of harm's way.`
 				decline
 
 
@@ -132,7 +132,7 @@ mission "Tarazed Ship Christening"
 			choice
 				`	(Take a closer look.)`
 					goto investigate
-				`	(Shout well wishes as I pass by)`
+				`	(Shout well wishes as I pass by.)`
 					goto passby
 				`	(Ignore them, I have more important things to do.)`
 			`	You hurry past the rowdy group, annoyed by the disturbance.`
@@ -179,14 +179,14 @@ mission "Influencer Encounter"
 	minor
 	source
 		government "Republic"
-		attributes "paradise" "wealthy"
+		attributes "paradise"
 		not attributes "station"
 	to offer
 		random < 1
 		"net worth" >= 7500000
 	on offer
 		conversation
-			`After taking care of all of your necessary duties at the spaceport, you meander your way back towards your ship. As you're approaching, though, you spot a peculiar group of people standing next, walking around, and leaning on it. They don't appear to be in any uniforms, organized in any particular way, or acting aggressively, but instinctually you hesitate to come any closer.`
+			`After taking care of all of your necessary duties at the spaceport, you meander your way back towards your ship. As you're approaching, though, you spot a peculiar group of people standing next, walking around, and leaning on it. They don't appear to be in any uniforms, organized in any particular way, or acting aggressively, but instinctively you hesitate to come any closer.`
 			`	Positioning yourself to get a better look at them without being seen, you notice one individual holding a video recording device of some kind, with the others seemingly flaunting around in front of it. It doesn't take long for you to come to realize that these fairly young-looking people are in the process of recording some video for social media, and are utilizing your ship as bragging material.`
 			choice
 				`	(Approach them.)`
@@ -230,7 +230,7 @@ mission "Influencer Encounter"
 			`	"Wuh, scratches?" says one young woman, who seems now more than eager to stop leaning against the ship.`
 			`	"Yes! The <ship> is a fine thing, don't you know? It cost me far too much just to have some random people dancing and bumping into it."`
 			`	"It's not like we were hurting it or nothing. We didn't scratch your precious hunk of metal."`
-			`	"Well I guess we'll have to see about that," you add. Looking over the hull where they were leaning and posing against it, you don't see any noticable scratches or dents. It would actually be surprising if you did, considering it goes through much rougher activity just flying it through space.`
+			`	"Well I guess we'll have to see about that," you add. Looking over the hull where they were leaning and posing against it, you don't see any noticeable scratches or dents. It would actually be surprising if you did, considering it goes through much rougher activity just flying it through space.`
 			`	"Oh trust me, we're not paying anything. My father- I mean, I have better lawyers than you ever will, and the ship is fine anyway!"`
 			`	"Whatever, just leave it alone, okay?"`
 			`	She sighs before replying "Fine, then. I guess we'll just record... somewhere else." They begin collecting their things to go.`
@@ -257,7 +257,7 @@ mission "Influencer Encounter"
 			label security
 			`	"Does this ship belong to one of you?" you ask, sternly.`
 			`	One of them, a young woman, says "Uhh, yeah. It's my ship. We're, uh, in the middle of something right now though."`
-			`	"Is that so? Then you should have no problem showing me your Pilot's Liscense, and maybe something that proves you own this."`
+			`	"Is that so? Then you should have no problem showing me your Pilot's License, and maybe something that proves you own this."`
 			`	The group stands around, flashing quick looks at each other, before the same woman replies "Yeah I could if I had it on me. But right now it's somewhere else, so is there something we're doing wrong here?"`
 			choice
 				`	"The Spaceport has been alerted that this particular ship has been reported stolen."`
@@ -273,4 +273,28 @@ mission "Influencer Encounter"
 				decline
 			label getout
 			`	In a surprisingly short amount of time, the group rushes away from your ship. You can faintly hear them exchange disgruntled words about either you or each other. Satisfied, you enter your ship.`
+				decline
+
+
+
+mission "Spaceport Cyclists"
+	minor
+	source
+		government "Republic" "Free Worlds"
+		attributes "dirt belt" "factory"
+		not attributes "station"
+	to offer
+		random < 1
+	on offer
+		conversation
+			`While your ship is in the process of refueling, you take a gentle wander around the spaceport. While there isn't anything fundamentally surprising as far as spaceports go, some of its denizens briefly grab your attention. A few people wearing uniforms indicating they work for security here ride by on bicycles, a practically ancient transportation technology that you've never had the thought to try to ride. Their entry is swift and graceful, and despite having seen marvels of modern human engineering across space, the movement of these is so unintuitive you question how they're ever able to stay balanced.`
+			choice
+				`(Investigate a bit closer.)`
+					goto investigate
+				`(Ignore these strange 'cyclists.')
+			`	Not wanting to focus your mind on such an archaic mode of getting around, you instead set your course back towards your ship which is likely done refueling by now.`
+				decline
+			label investigate
+			`	Looking at the bicycles, you can see the brand name printed on the side of them is almost certainly a local brand on <origin>. Once they've fully rode into the spaceport, their riders bring them up to a rack where they leave them parked before walking away. The entrance they rode in from seems to be a dedicated entrance for bicycles and, looking outside, you can see a few more cyclists both making their way to and away from the building. You figure that having this level of infrastructure to support cycling of all things probably means its a pretty common way of getting around this area.`
+			`	What an interesting clash of times.`
 				decline

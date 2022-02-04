@@ -248,11 +248,15 @@ phrase "unfettered aid pickup dialog"
 	word
 		`The Hai dockworkers load the food for the Unfettered onto your ship. One of them says to you,`
 		`As the Hai load the food onto your ship, one of them says,`
+		`Quickly many Hai load the food onto your shop. One of them stops to say,`
 	word
 		` `
 	word
 		`"Thank you. This is far better than watching our kinfolk starve."`
 		`"Tell our brothers and sisters that if they will only repent, they will be welcome to come home."`
+		`"I can only hope those who receive this are as grateful as we are to be giving it."`
+		`"Please let our wayward brothers and sisters know there is much more food to be found here, and that we would warmly welcome their return."`
+		`"We greatly appreciate your dedication to helping those Hai less fortunate than us."`
 
 mission "Unfettered Aid [0]"
 	name "Aid shipment to Unfettered"
@@ -329,12 +333,15 @@ mission "Unfettered Aid [2]"
 phrase "unfettered tribute payment dialog"
 	word
 		`You drop off the tribute to the Unfettered, and they pay you <payment>.`
+		`Satisfied with the food tribute you drop off, the Unfettered give you the payment of <payment>.`
+		`Almost ravenously, the Unfettered unload the tribute you drop off and pay you <payment>.`
 
 phrase "unfettered tribute pickup dialog"
 	word
 		`When you inform the Hai that you are here to receive a tribute payment for the Unfettered, they load the cargo onto your ship with a rather surprising swiftness and cheerfulness.`
 		`The Hai dockworkers load the tribute for the Unfettered onto your ship. One of them says to you, "Thank you. This is far better than watching our kinfolk starve."`
 		`As the Hai load the tribute onto your ship, one of them says, "Tell our brothers and sisters that if they will only repent, they will be welcome to come home."`
+		`Quickly many Hai load the food onto your shop. One of them stops to say, "I can only hope those who receive this are as grateful as we are to be giving it."`
 
 mission "Unfettered Tribute 1"
 	name "Hai Tribute to <planet>"
