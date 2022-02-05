@@ -298,3 +298,18 @@ mission "Spaceport Cyclists"
 			`	Looking at the bicycles, you can see the brand name printed on the side of them is almost certainly a local brand on <origin>. Once they've fully rode into the spaceport, their riders bring them up to a rack where they leave them parked before walking away. The entrance they rode in from seems to be a dedicated entrance for bicycles and, looking outside, you can see a few more cyclists both making their way to and away from the building. You figure that having this level of infrastructure to support cycling of all things probably means its a pretty common way of getting around this area.`
 			`	What an interesting clash of times.`
 				decline
+
+
+
+mission "Station Workers Rhythm"
+	minor
+	source
+		government "Republic" "Syndicate" "Free Worlds"
+		attributes "station"
+	to offer
+		random < 1
+	on offer
+		conversation
+			`As far as spaceports go, the ones found on space stations always seem to lean on the side of utility first. While not surprising, it's easy to find the experience of landing on a station to feel overly technical and rather boring. Regardless, you spend the time outside your ship while it refuels, enjoying yourself as well as you can. Among the various mechanical sounds emanating from every direction, you hear a faint rhythmic clanging sound that almost sounds almost melodic. A quick look in the direction of the sounds reveals a few station workers hitting a pipe of some kind with wrenches of various sizes. The makeshift percussion section manages to play a fairly decent tune with the tools they have, something vaguely familiar but which you can't pin down in your mind.`
+			`	After about a minute, the workers finish their song and chuckle to each other before leaving to return to work.`
+				decline

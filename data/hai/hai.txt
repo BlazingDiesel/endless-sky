@@ -218,10 +218,9 @@ fleet "Hai Surveillance"
 	variant 3
 		"Grasshopper (Surveillance)" 5
 
-
 fleet "Small Unfettered"
 	government "Hai (Unfettered)"
-	names "hai"
+	names "unfettered hai"
 	cargo 1
 	personality
 		disables
@@ -237,7 +236,7 @@ fleet "Small Unfettered"
 
 fleet "Large Unfettered"
 	government "Hai (Unfettered)"
-	names "hai"
+	names "unfettered hai"
 	cargo 1
 	personality
 		disables
@@ -283,7 +282,7 @@ fleet "Large Unfettered"
 
 fleet "Unfettered Raid"
 	government "Hai (Unfettered)"
-	names "hai"
+	names "unfettered hai"
 	cargo 1
 	personality
 		disables
@@ -451,16 +450,22 @@ phrase "hai"
 		"Vai"
 		"Woh"
 		"Far"
+		"Hoo"
+		"Im"
+		"Tah"
 	word
-		" "
-		" "
-		" e "
-		" e "
+		" " 2
+		" e " 2
 		" Cor "
 		" Yo "
 		" Sook "
 		" Woa "
 		" Ood "
+		" Ha "
+		" So "
+		" Bur "
+		" Le "
+		" Ia "
 	word
 		"Loh"
 		"Eh"
@@ -469,6 +474,42 @@ phrase "hai"
 		"Lur"
 		"Sen"
 		"Bin"
+		"Ka"
+		"Mea"
+		"Ahn"
+		"Wot"
+		"Fin"
+
+phrase "unfettered hai"
+	word
+		"Du"
+		"Mon"
+		"Far"
+		"Lav"
+		"Wei"
+		"Bo"
+		"Voot"
+	word
+		" " 2
+		" a " 2
+		" Yo "
+		" Sook "
+		" Olo "
+		" Il "
+		" Noe "
+		" Ay "
+		" Coo "
+		" Mi "
+	word
+		"Ow"
+		"Bin"
+		"Kai"
+		"Voh"
+		"How"
+		"Eya"
+		"Fah"
+		"Ley"
+		"Ha"
 
 phrase "friendly hai"
 	word
@@ -627,6 +668,7 @@ phrase "hostile hai"
 		"hateful"
 		"criminal"
 		"atrocious"
+		"fiendish"
 	word
 		" "
 	word
@@ -678,6 +720,7 @@ phrase "hostile disabled hai"
 		"hateful"
 		"criminal"
 		"atrocious"
+		"fiendish"
 	word
 		" "
 	word
@@ -698,7 +741,6 @@ phrase "hostile disabled hai"
 		"What of these peaceful worlds bring you to such evil?"
 		"We show you true friendship and you give us pure pain."
 		
-
 phrase "friendly unfettered"
 	word
 		"We "
