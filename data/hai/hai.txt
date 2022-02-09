@@ -218,6 +218,7 @@ fleet "Hai Surveillance"
 	variant 3
 		"Grasshopper (Surveillance)" 5
 
+
 fleet "Small Unfettered"
 	government "Hai (Unfettered)"
 	names "hai"
@@ -671,10 +672,10 @@ phrase "hostile disabled hai"
 		". "
 		"! "
 	word
-		"We provided you sanctuary and you betrayed us."
-		"We were nothing but peaceful to you but you did not reciprocate."
-		"We live only in peace yet you come bringing war."
-		"Have you no soul?"
+		" We provided you sanctuary and you betrayed us."
+		" We were nothing but peaceful to you but you did not reciprocate."
+		" We live only in peace yet you come bringing war."
+		" Have you no soul?"
 		
 		
 phrase "friendly unfettered"
