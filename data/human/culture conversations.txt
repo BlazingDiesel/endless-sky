@@ -356,7 +356,7 @@ mission "Spaceport Cyclists"
 			`	Not wanting to focus your mind on such an archaic mode of getting around, you instead set your course back towards your ship which is likely done refueling by now.`
 				decline
 			label investigate
-			`	Looking at the bicycles, you can see the brand name printed on the side of them is almost certainly a local brand on <origin>. Once they've fully rode into the spaceport, their riders bring them up to a rack where they leave them parked before walking away. The entrance they rode in from seems to be a dedicated entrance for bicycles and, looking outside, you can see a few more cyclists both making their way to and away from the building. You figure that having this level of infrastructure to support cycling of all things probably means its a pretty common way of getting around this area.`
+			`	Looking at the bicycles, you can see the brand name printed on the side of them is almost certainly a local brand on <origin>. Once they've fully rode into the spaceport, their riders bring them up to a rack where they leave them parked before walking away. The entrance they rode in from seems to be a dedicated entrance for bicycles and, looking outside, you can see a few more cyclists both making their way to and away from the building. You figure that having this level of infrastructure to support cycling of all things probably means it's a pretty common way of getting around this area.`
 			`	What an interesting clash of times.`
 				decline
 

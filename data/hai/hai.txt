@@ -220,7 +220,7 @@ fleet "Hai Surveillance"
 
 fleet "Small Unfettered"
 	government "Hai (Unfettered)"
-	names "unfettered hai"
+	names "hai"
 	cargo 1
 	personality
 		disables
@@ -236,7 +236,7 @@ fleet "Small Unfettered"
 
 fleet "Large Unfettered"
 	government "Hai (Unfettered)"
-	names "unfettered hai"
+	names "hai"
 	cargo 1
 	personality
 		disables
@@ -282,7 +282,7 @@ fleet "Large Unfettered"
 
 fleet "Unfettered Raid"
 	government "Hai (Unfettered)"
-	names "unfettered hai"
+	names "hai"
 	cargo 1
 	personality
 		disables
@@ -450,22 +450,16 @@ phrase "hai"
 		"Vai"
 		"Woh"
 		"Far"
-		"Hoo"
-		"Im"
-		"Tah"
 	word
-		" " 2
-		" e " 2
+		" "
+		" "
+		" e "
+		" e "
 		" Cor "
 		" Yo "
 		" Sook "
 		" Woa "
 		" Ood "
-		" Ha "
-		" So "
-		" Bur "
-		" Le "
-		" Ia "
 	word
 		"Loh"
 		"Eh"
@@ -474,42 +468,6 @@ phrase "hai"
 		"Lur"
 		"Sen"
 		"Bin"
-		"Ka"
-		"Mea"
-		"Ahn"
-		"Wot"
-		"Fin"
-
-phrase "unfettered hai"
-	word
-		"Du"
-		"Mon"
-		"Far"
-		"Lav"
-		"Wei"
-		"Bo"
-		"Voot"
-	word
-		" " 2
-		" a " 2
-		" Yo "
-		" Sook "
-		" Olo "
-		" Il "
-		" Noe "
-		" Ay "
-		" Coo "
-		" Mi "
-	word
-		"Ow"
-		"Bin"
-		"Kai"
-		"Voh"
-		"How"
-		"Eya"
-		"Fah"
-		"Ley"
-		"Ha"
 
 phrase "friendly hai"
 	word
@@ -634,7 +592,6 @@ phrase "hostile hai"
 	word
 		" came to "
 		" entered "
-		" were welcomed to "
 	word
 		" Hai "
 		" our "
@@ -644,12 +601,6 @@ phrase "hostile hai"
 		"worlds"
 	word
 		" with "
-		", only to reveal your "
-		" holding "
-	word
-		"" 2
-		"disgustingly "
-		"unfathomably "
 	word
 		"impure"
 		"unclean"
@@ -663,12 +614,6 @@ phrase "hostile hai"
 		"brutal"
 		"cruel"
 		"heartless"
-		"corrupted"
-		"villainous"
-		"hateful"
-		"criminal"
-		"atrocious"
-		"fiendish"
 	word
 		" "
 	word
@@ -715,12 +660,6 @@ phrase "hostile disabled hai"
 		"brutal"
 		"cruel"
 		"heartless"
-		"corrupted"
-		"villainous"
-		"hateful"
-		"criminal"
-		"atrocious"
-		"fiendish"
 	word
 		" "
 	word
@@ -728,7 +667,6 @@ phrase "hostile disabled hai"
 		"creature"
 		"thing"
 		"being"
-		"monster"
 	word
 		". "
 		"! "
@@ -737,9 +675,7 @@ phrase "hostile disabled hai"
 		"We were nothing but peaceful to you but you did not reciprocate."
 		"We live only in peace yet you come bringing war."
 		"Have you no soul?"
-		"What have we done to drive you to this?"
-		"What of these peaceful worlds bring you to such evil?"
-		"We show you true friendship and you give us pure pain."
+		
 		
 phrase "friendly unfettered"
 	word
