@@ -656,7 +656,7 @@ fleet "Hai Miners"
 
 fleet "Unfettered Logistics"
 	government "Hai (Unfettered Civilians)"
-	names "hai"
+	names "unfettered hai"
 	cargo 3
 	commodities "Food" "Heavy Metals" "Medical"
 	personality
@@ -704,7 +704,7 @@ fleet "Unfettered Logistics"
 
 fleet "Small Unfettered"
 	government "Hai (Unfettered)"
-	names "hai"
+	names "unfettered hai"
 	cargo 1
 	personality
 		disables plunders harvests
@@ -726,7 +726,7 @@ fleet "Small Unfettered"
 
 fleet "Large Unfettered"
 	government "Hai (Unfettered)"
-	names "hai"
+	names "unfettered hai"
 	cargo 1
 	personality
 		disables plunders harvests
@@ -808,7 +808,7 @@ fleet "Large Unfettered"
 
 fleet "Large Plundering Unfettered"
 	government "Hai (Unfettered)"
-	names "hai"
+	names "unfettered hai"
 	cargo 1
 	personality
 		disables plunders coward harvests
@@ -890,7 +890,7 @@ fleet "Large Plundering Unfettered"
 
 fleet "Unfettered Raid"
 	government "Hai (Unfettered)"
-	names "hai"
+	names "unfettered hai"
 	cargo 1
 	personality
 		disables plunders
