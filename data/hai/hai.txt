@@ -555,8 +555,8 @@ phrase "hostile disabled hai"
 		" We were nothing but peaceful to you but you did not reciprocate."
 		" We live only in peace yet you come bringing war."
 		" Have you no soul?"
-
 		
+
 phrase "friendly unfettered"
 	word
 		"We "
