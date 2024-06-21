@@ -588,6 +588,7 @@ mission "Scientists at the Pub after a Conference"
 			`	You leave after finishing your meal, reflecting on having overheard a slice of a life very different from your own.`
 				decline
 
+
 mission "Sol-Bound Shuttle"
 	minor
 	source
