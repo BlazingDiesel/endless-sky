@@ -588,8 +588,6 @@ mission "Scientists at the Pub after a Conference"
 			`	You leave after finishing your meal, reflecting on having overheard a slice of a life very different from your own.`
 				decline
 
-
-
 mission "Sol-Bound Shuttle"
 	minor
 	source
@@ -754,8 +752,6 @@ mission "Burthen Triathlon"
 			`	Abernathy doesn't slow down until he's within an arm's length of the finishing line; as he crosses it he seizes the tape, making a yelp of simultaneous joy and relief. He holds the tape up before everybody in the crowd and at the cameras pointed at him, taking in the attention (and catching his breath) before accepting a bottle of water from someone on the sidelines.`
 				decline
 
-
-
 mission "Influencer Encounter"
 		random < 1
 		"net worth" >= 7500000
@@ -850,8 +846,6 @@ mission "Influencer Encounter"
 			`	In a surprisingly short amount of time, the group rushes away from your ship. You can faintly hear them exchange disgruntled words about either you or each other. Satisfied, you enter your ship.`
 				decline
 
-
-
 mission "Spaceport Cyclists"
 	minor
 	source
@@ -873,8 +867,6 @@ mission "Spaceport Cyclists"
 			`	Looking at the bicycles, you can see the brand name printed on the side of them is almost certainly a local brand on <origin>. Once they've fully rode into the spaceport, their riders bring them up to a rack where they leave them parked before walking away. The entrance they rode in from seems to be a dedicated entrance for bicycles and, looking outside, you can see a few more cyclists both making their way to and away from the building. You figure that having this level of infrastructure to support cycling of all things probably means it's a pretty common way of getting around this area.`
 			`	What an interesting clash of times.`
 				decline
-
-
 
 mission "Station Workers Rhythm"
 	minor
