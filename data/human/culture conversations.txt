@@ -807,11 +807,11 @@ mission "Influencer Encounter"
 			`	She sighs before replying "Fine, then. I guess we'll just record... somewhere else." They begin collecting their things to go.`
 				goto giveup
 			label pretend
-			`	"Yuh-huh," says one young woman, still holding some of her weight with here hand against the ship.`
-			`	"Incredible!" your reply, "You named it the <ship>, huh? What a silly name."`
-			`	"Who asked you? It's my ship, I'll name it the uhh, <ship> if I want to! Do you even know who I am."`
+			`	"Yuh-huh," says one young woman, still holding some of her weight with her hand against the ship.`
+			`	"Incredible!" you reply, "You named it the <ship>, huh? What a silly name."`
+			`	"Who asked you? It's my ship, I'll name it the uhh, <ship> if I want to! Do you even know who I am?"`
 			`	"No clue, I was just admiring the ship. Must have cost you quite a bit," you say, hopefully convincingly.`
-			`	"Yeah, it did. And if you know who I was, and who we are, you'd know that." She turns to another one in her group and says, "I swear old people will never get a good grasp of social media." The group giggles briefly.`
+			`	"Yeah, it did. And if you knew who I was, and who we are, you'd know that." She turns to another one in her group and says, "I swear old people will never get a good grasp of social media." The group giggles briefly.`
 			choice
 				`	"Would you mind giving me a tour of the inside of it?"`
 					goto tour
